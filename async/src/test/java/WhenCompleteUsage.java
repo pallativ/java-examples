@@ -15,6 +15,9 @@ public class WhenCompleteUsage {
         });
     }
 
+
+    // As the name suggests, whenComplete is a kind of finally. both in case of exception and also in exception.
+    // It takes two parameters 1. Previous stage return value and exception if any if previous stages.
     @Test
     public void ReturnFromPreviousStage() {
         CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> 2);
