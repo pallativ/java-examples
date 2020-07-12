@@ -1,9 +1,9 @@
 # Examples of CompletableFuture
-##thenAccept : 
+## thenAccept : 
 _thenApply_ used to accept the result from previous method in the chain.It accepts the value from previous stage and return nothing.
-###Use cases of thenAccept
+### Use cases of thenAccept
 1. Accept the value, return nothing.
-##exceptionally
+## exceptionally
 This method is used to handle the exceptions occurred in the previous stages.
 ### Use cases of exceptionally
 1. If you want to handle exception and continue to next stages in the chain.
