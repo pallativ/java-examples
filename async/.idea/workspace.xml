@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abead8da-0922-4687-8434-766355551b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ThanApplyUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThanApplyUsage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,14 +35,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="906" />
-          <entry key="md" value="319" />
+          <entry key="java" value="1199" />
+          <entry key="md" value="334" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="906" />
-          <entry key="Markdown" value="319" />
+          <entry key="JAVA" value="1199" />
+          <entry key="Markdown" value="334" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -57,11 +55,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ThanApplyUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+            <state relative-caret-position="364">
+              <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,12 +67,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="79" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -96,8 +94,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ThanApplyUsage.java" />
         <option value="$PROJECT_DIR$/src/test/java/readme.md" />
+        <option value="$PROJECT_DIR$/src/test/java/ThanApplyUsage.java" />
       </list>
     </option>
   </component>
@@ -114,7 +112,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -163,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594545986081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594546528628" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -183,12 +181,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThanApplyUsage.ExceptionUseCase">
+  <component name="RunManager" selected="JUnit.ThanApplyUsage.ContinueExecutionChainInCaseOfException">
     <configuration name="ThanApplyUsage.BasicUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ThanApplyUsage" />
       <option name="METHOD_NAME" value="BasicUsage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThanApplyUsage.ContinueChainInCaseOfException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThanApplyUsage" />
+      <option name="METHOD_NAME" value="ContinueChainInCaseOfException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThanApplyUsage" />
+      <option name="METHOD_NAME" value="ContinueExecutionChainInCaseOfException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,10 +225,14 @@
     <list>
       <item itemvalue="JUnit.ThanApplyUsage.BasicUsage" />
       <item itemvalue="JUnit.ThanApplyUsage.ExceptionUseCase" />
+      <item itemvalue="JUnit.ThanApplyUsage.ContinueChainInCaseOfException" />
+      <item itemvalue="JUnit.ThanApplyUsage.ContinueExecutionChainInCaseOfException" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThanApplyUsage.ContinueExecutionChainInCaseOfException" />
         <item itemvalue="JUnit.ThanApplyUsage.ExceptionUseCase" />
+        <item itemvalue="JUnit.ThanApplyUsage.ContinueChainInCaseOfException" />
         <item itemvalue="JUnit.ThanApplyUsage.BasicUsage" />
       </list>
     </recent_temporary>
@@ -225,29 +247,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594544726581</updated>
-      <workItem from="1594544728072" duration="1257000" />
+      <workItem from="1594544728072" duration="1797000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThanApplyUsage_BasicUsage - 2020.07.12 at 14h 40m 57s.xml">
-      <configuration name="ThanApplyUsage.BasicUsage" configurationId="JUnit" />
+    <history-entry file="ThanApplyUsage_ContinueChainInCaseOfException - 2020.07.12 at 15h 01m 51s.xml">
+      <configuration name="ThanApplyUsage.ContinueChainInCaseOfException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanApplyUsage_BasicUsage - 2020.07.12 at 14h 43m 54s.xml">
-      <configuration name="ThanApplyUsage.BasicUsage" configurationId="JUnit" />
+    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 02m 59s.xml">
+      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanApplyUsage_ExceptionUseCase - 2020.07.12 at 14h 48m 49s.xml">
+    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 03m 07s.xml">
+      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 03m 37s.xml">
+      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThanApplyUsage_ExceptionUseCase - 2020.07.12 at 15h 03m 54s.xml">
       <configuration name="ThanApplyUsage.ExceptionUseCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanApplyUsage_ExceptionUseCase - 2020.07.12 at 14h 52m 55s.xml">
+    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 04m 21s.xml">
+      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 04m 38s.xml">
+      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 04m 49s.xml">
+      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThanApplyUsage_ExceptionUseCase - 2020.07.12 at 15h 04m 55s.xml">
       <configuration name="ThanApplyUsage.ExceptionUseCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanApplyUsage_ExceptionUseCase - 2020.07.12 at 14h 53m 18s.xml">
-      <configuration name="ThanApplyUsage.ExceptionUseCase" configurationId="JUnit" />
+    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 05m 03s.xml">
+      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1257000" />
+    <option name="totallyTimeSpent" value="1797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -258,7 +295,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -267,8 +304,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -293,23 +330,23 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ThanApplyUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="79" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
+          <first_editor relative-caret-position="51">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThanApplyUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

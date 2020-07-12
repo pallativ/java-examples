@@ -28,9 +28,27 @@ public class ThanApplyUsage {
             System.out.println(String.format("Received the input: %d", 2));
         }).exceptionally(t -> {
             System.out.println(String.format("Exception received: " + t.getMessage()));
-            return  null; // exceptionally block excepts the return value.
+            return null;
+        });
+    }
+
+    @Test
+    public void ContinueExecutionChainInCaseOfException() throws RuntimeException {
+
+        // Creating the Completable future with exception in supply sync.
+        CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
+            throw new RuntimeException("Exception in Async");
         });
 
+        // Here we handling the exception and returning the value to continue.
+        future.exceptionally(t -> {
+            System.out.println("Exception received");
+            return 10;
+        }).thenAccept(n -> {
+            System.out.println(String.format("Received the input : %d", n));
+        });
     }
+
+
 
 }
