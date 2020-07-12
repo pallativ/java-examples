@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ThanApplyUsage {
+public class ThanAcceptUsage {
 
     @Test
     public void BasicUsage() {
@@ -50,5 +50,20 @@ public class ThanApplyUsage {
     }
 
 
+    @Test
+    public void StopNextStagesInCaseOfException() throws RuntimeException {
+        CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> 2);
 
+        future.thenApply(n -> {
+            System.out.println(String.format("Received the input : %d", n));
+            return n*n;
+        }).thenAccept(n -> {
+            throw new RuntimeException("Exception");
+        }).thenAccept(n ->{ /*This method won't be executed because of the exception in previous stage.*/
+            System.out.println("Received:"+ n);
+        }).exceptionally(t -> { // This will be executed because of the unhandled exception in previous stage.
+            System.out.println("Exception Occurred");
+            return null;
+        });
+    }
 }
