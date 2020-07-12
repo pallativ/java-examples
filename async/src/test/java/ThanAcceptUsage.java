@@ -1,7 +1,10 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.TimeUnit;
 
 public class ThanAcceptUsage {
 
@@ -95,13 +98,79 @@ public class ThanAcceptUsage {
             DisplayThread();
             return t * t;
         }, forkJoinPool).thenAcceptAsync(t -> {
-            DisplayThread(); // main.
+            DisplayThread();
             System.out.println(String.format("Received the input: %d", 2));
         }, forkJoinPool);
     }
 
 
+    @Test
+    public void UsingOwnThreadPoolUsingLoop() {
+        // Creating the ForkJoinPool - this makes the parallism.
+        // ForkJoinPool(1) - All Async methods will executed in single thread.
+        // ForkJoinPool(2) - All Async methods will be executed two thread.
+        ForkJoinPool forkJoinPool = new ForkJoinPool(2);
+        DisplayThread(); // Display main thread.
+        for (int i = 0; i < 100; i++) {
+            CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
+                DisplayThread(); // It will be ForkJoinPool.commonPool-worker
+                return 2;
+            }, forkJoinPool);
+
+            // Async functions take the Fork join Pool, if you want run the particular stage in your thread pool, you can use Async functions.
+            future.thenApplyAsync(t -> {
+                DisplayThread();
+                return t * t;
+            }, forkJoinPool).thenAcceptAsync(t -> {
+                DisplayThread();
+            }, forkJoinPool);
+        }
+    }
+
+    @Test
+    public void UsingOwnThreadPoolUsingLoopWithSleep() {
+        // Creating the ForkJoinPool - this makes the parallism.
+        // ForkJoinPool(1) - All Async methods will executed in single thread.
+        // ForkJoinPool(2) - All Async methods will be executed two thread.
+        ForkJoinPool forkJoinPool = new ForkJoinPool(1);
+        DisplayThread(); // Display main thread.
+        try {
+
+            List<CompletableFuture<Integer>> list = new ArrayList<>();
+            for (int i = 0; i < 100; i++) {
+                System.out.println("Iteration:" +i);
+                CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
+                    DisplayThread(); // It will be ForkJoinPool.commonPool-worker
+                    Sleep(1000);
+                    return 2;
+                }, forkJoinPool);
+
+                // Async functions take the Fork join Pool, if you want run the particular stage in your thread pool, you can use Async functions.
+                future.thenApplyAsync(t -> {
+                    DisplayThread();
+                    return t * t;
+                }, forkJoinPool).thenAcceptAsync(t -> {
+                    DisplayThread();
+                }, forkJoinPool);
+
+                list.add(future);
+            }
+            forkJoinPool.awaitQuiescence(4, TimeUnit.MINUTES);
+        }
+        catch (Exception ex){
+           ex.printStackTrace();
+        }
+    }
+
+
     private void DisplayThread() {
         System.out.println(Thread.currentThread().getName());
+    }
+    private void Sleep(long milli){
+        try {
+            Thread.sleep(milli);
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

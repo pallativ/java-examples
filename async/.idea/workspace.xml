@@ -22,26 +22,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="4" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="2789" />
+          <entry key="java" value="3438" />
           <entry key="md" value="1062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2789" />
+          <entry key="JAVA" value="3438" />
           <entry key="Markdown" value="1062" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
@@ -58,12 +58,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="96" column="47" lean-forward="true" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+            <state relative-caret-position="449">
+              <caret line="157" column="42" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3757#3758#0" expanded="true" />
-                <element signature="e#3825#3826#0" expanded="true" />
+                <element signature="e#6059#6060#0" expanded="true" />
+                <element signature="e#6127#6128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/util/concurrent/ForkJoinPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="2979" column="19" selection-start-line="2979" selection-start-column="19" selection-end-line="2979" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="2415" column="21" selection-start-line="2415" selection-start-column="21" selection-end-line="2415" selection-end-column="21" />
+              <folding>
+                <element signature="e#91856#91857#0" expanded="true" />
+                <element signature="e#91910#91911#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594548665532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594549779072" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -197,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThanAcceptUsage.UsingOwnThreadPool">
+  <component name="RunManager" selected="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep">
     <configuration name="ThanAcceptUsage.UnderstandThreads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
@@ -218,19 +240,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenCompleteUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WhenCompleteUsage" />
+      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
+      <option name="METHOD_NAME" value="UsingOwnThreadPoolUsingLoop" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhenCompleteUsage.BasicUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WhenCompleteUsage" />
-      <option name="METHOD_NAME" value="BasicUsage" />
+      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
+      <option name="METHOD_NAME" value="UsingOwnThreadPoolUsingLoopWithSleep" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,19 +271,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WhenCompleteUsage.BasicUsage" />
-      <item itemvalue="JUnit.WhenCompleteUsage" />
       <item itemvalue="JUnit.WhenCompleteUsage.ReturnFromPreviousStage" />
       <item itemvalue="JUnit.ThanAcceptUsage.UnderstandThreads" />
       <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPool" />
+      <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoop" />
+      <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" />
+        <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoop" />
         <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPool" />
         <item itemvalue="JUnit.ThanAcceptUsage.UnderstandThreads" />
         <item itemvalue="JUnit.WhenCompleteUsage.ReturnFromPreviousStage" />
-        <item itemvalue="JUnit.WhenCompleteUsage" />
-        <item itemvalue="JUnit.WhenCompleteUsage.BasicUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -273,44 +297,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594544726581</updated>
-      <workItem from="1594544728072" duration="3934000" />
+      <workItem from="1594544728072" duration="5043000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhenCompleteUsage_BasicUsage - 2020.07.12 at 15h 25m 19s.xml">
-      <configuration name="WhenCompleteUsage.BasicUsage" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 50m 22s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenCompleteUsage_BasicUsage - 2020.07.12 at 15h 25m 23s.xml">
-      <configuration name="WhenCompleteUsage.BasicUsage" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 51m 17s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenCompleteUsage - 2020.07.12 at 15h 27m 51s.xml">
-      <configuration name="WhenCompleteUsage" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 51m 49s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WhenCompleteUsage_ReturnFromPreviousStage - 2020.07.12 at 15h 28m 00s.xml">
-      <configuration name="WhenCompleteUsage.ReturnFromPreviousStage" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 52m 04s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UnderstandThreads - 2020.07.12 at 15h 34m 18s.xml">
-      <configuration name="ThanAcceptUsage.UnderstandThreads" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 53m 16s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UnderstandThreads - 2020.07.12 at 15h 35m 19s.xml">
-      <configuration name="ThanAcceptUsage.UnderstandThreads" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 55m 40s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPool - 2020.07.12 at 15h 37m 57s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPool" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 56m 37s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPool - 2020.07.12 at 15h 39m 03s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPool" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 57m 35s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPool - 2020.07.12 at 15h 39m 31s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPool" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 58m 37s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPool - 2020.07.12 at 15h 39m 51s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPool" configurationId="JUnit" />
+    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 58m 58s.xml">
+      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3934000" />
+    <option name="totallyTimeSpent" value="5043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,14 +400,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="2415" column="21" selection-start-line="2415" selection-start-column="21" selection-end-line="2415" selection-end-column="21" />
+          <folding>
+            <element signature="e#91856#91857#0" expanded="true" />
+            <element signature="e#91910#91911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="2979" column="19" selection-start-line="2979" selection-start-column="19" selection-end-line="2979" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="96" column="47" lean-forward="true" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
+        <state relative-caret-position="449">
+          <caret line="157" column="42" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
+            <element signature="e#6059#6060#0" expanded="true" />
+            <element signature="e#6127#6128#0" expanded="true" />
           </folding>
         </state>
       </provider>
