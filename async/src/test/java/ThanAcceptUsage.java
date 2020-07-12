@@ -53,7 +53,6 @@ public class ThanAcceptUsage {
     @Test
     public void StopNextStagesInCaseOfException() throws RuntimeException {
         CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> 2);
-
         future.thenApply(n -> {
             System.out.println(String.format("Received the input : %d", n));
             return n*n;

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abead8da-0922-4687-8434-766355551b30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThanApplyUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,26 +24,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="1666" />
+          <entry key="java" value="1996" />
           <entry key="md" value="1062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1666" />
+          <entry key="JAVA" value="1996" />
           <entry key="Markdown" value="1062" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
@@ -57,11 +57,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="432">
+              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ThanApplyUsage.java" />
         <option value="$PROJECT_DIR$/src/test/java/readme.md" />
         <option value="$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java" />
       </list>
     </option>
   </component>
@@ -164,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594547447369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594547893328" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -184,42 +197,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThanAcceptUsage.StopNextStagesInCaseOfException">
-    <configuration name="ThanAcceptUsage.BasicUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="async" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
-      <option name="METHOD_NAME" value="BasicUsage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThanAcceptUsage.ContinueChainInCaseOfException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="async" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
-      <option name="METHOD_NAME" value="ContinueChainInCaseOfException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WhenCompleteUsage.ReturnFromPreviousStage">
     <configuration name="ThanAcceptUsage.ContinueExecutionChainInCaseOfException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
       <option name="METHOD_NAME" value="ContinueExecutionChainInCaseOfException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThanAcceptUsage.ExceptionUseCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="async" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
-      <option name="METHOD_NAME" value="ExceptionUseCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,20 +218,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhenCompleteUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WhenCompleteUsage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenCompleteUsage.BasicUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WhenCompleteUsage" />
+      <option name="METHOD_NAME" value="BasicUsage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenCompleteUsage.ReturnFromPreviousStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WhenCompleteUsage" />
+      <option name="METHOD_NAME" value="ReturnFromPreviousStage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.ThanAcceptUsage.BasicUsage" />
-      <item itemvalue="JUnit.ThanAcceptUsage.ExceptionUseCase" />
-      <item itemvalue="JUnit.ThanAcceptUsage.ContinueChainInCaseOfException" />
       <item itemvalue="JUnit.ThanAcceptUsage.ContinueExecutionChainInCaseOfException" />
       <item itemvalue="JUnit.ThanAcceptUsage.StopNextStagesInCaseOfException" />
+      <item itemvalue="JUnit.WhenCompleteUsage.BasicUsage" />
+      <item itemvalue="JUnit.WhenCompleteUsage" />
+      <item itemvalue="JUnit.WhenCompleteUsage.ReturnFromPreviousStage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WhenCompleteUsage.ReturnFromPreviousStage" />
+        <item itemvalue="JUnit.WhenCompleteUsage" />
+        <item itemvalue="JUnit.WhenCompleteUsage.BasicUsage" />
         <item itemvalue="JUnit.ThanAcceptUsage.StopNextStagesInCaseOfException" />
         <item itemvalue="JUnit.ThanAcceptUsage.ContinueExecutionChainInCaseOfException" />
-        <item itemvalue="JUnit.ThanAcceptUsage.ExceptionUseCase" />
-        <item itemvalue="JUnit.ThanAcceptUsage.ContinueChainInCaseOfException" />
-        <item itemvalue="JUnit.ThanAcceptUsage.BasicUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -262,26 +273,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594544726581</updated>
-      <workItem from="1594544728072" duration="2717000" />
+      <workItem from="1594544728072" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 03m 37s.xml">
-      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThanApplyUsage_ExceptionUseCase - 2020.07.12 at 15h 03m 54s.xml">
-      <configuration name="ThanApplyUsage.ExceptionUseCase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 04m 21s.xml">
-      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 04m 38s.xml">
-      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThanApplyUsage_ContinueExecutionChainInCaseOfException - 2020.07.12 at 15h 04m 49s.xml">
-      <configuration name="ThanApplyUsage.ContinueExecutionChainInCaseOfException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThanApplyUsage_ExceptionUseCase - 2020.07.12 at 15h 04m 55s.xml">
       <configuration name="ThanApplyUsage.ExceptionUseCase" configurationId="JUnit" />
     </history-entry>
@@ -297,9 +293,24 @@
     <history-entry file="ThanAcceptUsage_StopNextStagesInCaseOfException - 2020.07.12 at 15h 18m 57s.xml">
       <configuration name="ThanAcceptUsage.StopNextStagesInCaseOfException" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WhenCompleteUsage_BasicUsage - 2020.07.12 at 15h 24m 55s.xml">
+      <configuration name="WhenCompleteUsage.BasicUsage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenCompleteUsage_BasicUsage - 2020.07.12 at 15h 25m 11s.xml">
+      <configuration name="WhenCompleteUsage.BasicUsage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenCompleteUsage_BasicUsage - 2020.07.12 at 15h 25m 15s.xml">
+      <configuration name="WhenCompleteUsage.BasicUsage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenCompleteUsage_BasicUsage - 2020.07.12 at 15h 25m 19s.xml">
+      <configuration name="WhenCompleteUsage.BasicUsage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WhenCompleteUsage_BasicUsage - 2020.07.12 at 15h 25m 23s.xml">
+      <configuration name="WhenCompleteUsage.BasicUsage" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2717000" />
+    <option name="totallyTimeSpent" value="3134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -312,14 +323,14 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,8 +368,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="432">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
