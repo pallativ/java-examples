@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abead8da-0922-4687-8434-766355551b30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CompletableCustomFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RunnableExampleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SampleWebCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RunnableExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,26 +28,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="11" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="11" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="3438" />
+          <entry key="java" value="5450" />
           <entry key="md" value="1062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3438" />
+          <entry key="JAVA" value="5450" />
           <entry key="Markdown" value="1062" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
@@ -51,20 +57,92 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="157" column="42" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="42" />
+            <state relative-caret-position="137">
+              <caret line="124" column="32" lean-forward="true" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6059#6060#0" expanded="true" />
                 <element signature="e#6127#6128#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CompletableCustomFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CompletableFutureExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SampleWebCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RunnableExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RunnableExampleTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1691">
+              <caret line="488" column="11" selection-start-line="488" selection-start-column="11" selection-end-line="488" selection-end-column="11" />
+              <folding>
+                <element signature="e#16948#16949#0" expanded="true" />
+                <element signature="e#17014#17015#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="349" column="29" selection-start-line="349" selection-start-column="29" selection-end-line="349" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -79,38 +157,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="2415" column="21" selection-start-line="2415" selection-start-column="21" selection-end-line="2415" selection-end-column="21" />
-              <folding>
-                <element signature="e#91856#91857#0" expanded="true" />
-                <element signature="e#91910#91911#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -134,6 +187,12 @@
         <option value="$PROJECT_DIR$/src/test/java/readme.md" />
         <option value="$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RunnableTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RunnableExamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CompletableCustomFunction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CompletableFutureExample.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/SampleWebCall.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CompletableFutureExample.java" />
       </list>
     </option>
   </component>
@@ -181,6 +240,19 @@
               <item name="async.examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="async" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="async.examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="async" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="async.examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="async" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -199,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594549779072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594571856340" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -219,71 +291,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep">
-    <configuration name="ThanAcceptUsage.UnderstandThreads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CompletableFutureExample.UsingCompletableFuture">
+    <configuration name="CompletableFutureExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
-      <option name="METHOD_NAME" value="UnderstandThreads" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutureExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutureExample.BasicExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutureExample" />
+      <option name="METHOD_NAME" value="BasicExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThanAcceptUsage.UsingOwnThreadPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompletableFutureExample.BasicExampleWithSleep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
-      <option name="METHOD_NAME" value="UsingOwnThreadPool" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutureExample" />
+      <option name="METHOD_NAME" value="BasicExampleWithSleep" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompletableFutureExample.UsingCompletableFuture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
-      <option name="METHOD_NAME" value="UsingOwnThreadPoolUsingLoop" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutureExample" />
+      <option name="METHOD_NAME" value="UsingCompletableFuture" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompletableFutureExample.UsingGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="async" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThanAcceptUsage" />
-      <option name="METHOD_NAME" value="UsingOwnThreadPoolUsingLoopWithSleep" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhenCompleteUsage.ReturnFromPreviousStage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="async" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WhenCompleteUsage" />
-      <option name="METHOD_NAME" value="ReturnFromPreviousStage" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutureExample" />
+      <option name="METHOD_NAME" value="UsingGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WhenCompleteUsage.ReturnFromPreviousStage" />
-      <item itemvalue="JUnit.ThanAcceptUsage.UnderstandThreads" />
-      <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPool" />
-      <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoop" />
-      <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" />
+      <item itemvalue="JUnit.CompletableFutureExample.BasicExample" />
+      <item itemvalue="JUnit.CompletableFutureExample" />
+      <item itemvalue="JUnit.CompletableFutureExample.UsingGet" />
+      <item itemvalue="JUnit.CompletableFutureExample.BasicExampleWithSleep" />
+      <item itemvalue="JUnit.CompletableFutureExample.UsingCompletableFuture" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" />
-        <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPoolUsingLoop" />
-        <item itemvalue="JUnit.ThanAcceptUsage.UsingOwnThreadPool" />
-        <item itemvalue="JUnit.ThanAcceptUsage.UnderstandThreads" />
-        <item itemvalue="JUnit.WhenCompleteUsage.ReturnFromPreviousStage" />
+        <item itemvalue="JUnit.CompletableFutureExample.UsingCompletableFuture" />
+        <item itemvalue="JUnit.CompletableFutureExample.BasicExampleWithSleep" />
+        <item itemvalue="JUnit.CompletableFutureExample.UsingGet" />
+        <item itemvalue="JUnit.CompletableFutureExample" />
+        <item itemvalue="JUnit.CompletableFutureExample.BasicExample" />
       </list>
     </recent_temporary>
   </component>
@@ -297,44 +367,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594544726581</updated>
-      <workItem from="1594544728072" duration="5043000" />
+      <workItem from="1594544728072" duration="9772000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 50m 22s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_BasicExampleWithSleep - 2020.07.12 at 21h 59m 26s.xml">
+      <configuration name="CompletableFutureExample.BasicExampleWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 51m 17s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_BasicExampleWithSleep - 2020.07.12 at 21h 59m 40s.xml">
+      <configuration name="CompletableFutureExample.BasicExampleWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 51m 49s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_BasicExampleWithSleep - 2020.07.12 at 22h 00m 18s.xml">
+      <configuration name="CompletableFutureExample.BasicExampleWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 52m 04s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_BasicExampleWithSleep - 2020.07.12 at 22h 01m 12s.xml">
+      <configuration name="CompletableFutureExample.BasicExampleWithSleep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 53m 16s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_UsingCompletableFuture - 2020.07.12 at 22h 04m 24s.xml">
+      <configuration name="CompletableFutureExample.UsingCompletableFuture" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 55m 40s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_UsingCompletableFuture - 2020.07.12 at 22h 04m 41s.xml">
+      <configuration name="CompletableFutureExample.UsingCompletableFuture" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 56m 37s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_UsingCompletableFuture - 2020.07.12 at 22h 04m 58s.xml">
+      <configuration name="CompletableFutureExample.UsingCompletableFuture" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 57m 35s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_UsingCompletableFuture - 2020.07.12 at 22h 05m 41s.xml">
+      <configuration name="CompletableFutureExample.UsingCompletableFuture" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 58m 37s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_UsingCompletableFuture - 2020.07.12 at 22h 05m 56s.xml">
+      <configuration name="CompletableFutureExample.UsingCompletableFuture" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThanAcceptUsage_UsingOwnThreadPoolUsingLoopWithSleep - 2020.07.12 at 15h 58m 58s.xml">
-      <configuration name="ThanAcceptUsage.UsingOwnThreadPoolUsingLoopWithSleep" configurationId="JUnit" />
+    <history-entry file="CompletableFutureExample_UsingCompletableFuture - 2020.07.12 at 22h 06m 29s.xml">
+      <configuration name="CompletableFutureExample.UsingCompletableFuture" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5043000" />
+    <option name="totallyTimeSpent" value="9772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -354,7 +424,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28060672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,16 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -418,15 +478,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="349" column="29" selection-start-line="349" selection-start-column="29" selection-end-line="349" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-13.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="488" column="11" selection-start-line="488" selection-start-column="11" selection-end-line="488" selection-end-column="11" />
+          <folding>
+            <element signature="e#16948#16949#0" expanded="true" />
+            <element signature="e#17014#17015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RunnableExampleTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WhenCompleteUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ThanAcceptUsage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="157" column="42" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="42" />
+        <state relative-caret-position="137">
+          <caret line="124" column="32" lean-forward="true" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6059#6060#0" expanded="true" />
             <element signature="e#6127#6128#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CompletableCustomFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunnableExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SampleWebCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CompletableFutureExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
         </state>
       </provider>
     </entry>

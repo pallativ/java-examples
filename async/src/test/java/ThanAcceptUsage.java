@@ -131,8 +131,8 @@ public class ThanAcceptUsage {
     public void UsingOwnThreadPoolUsingLoopWithSleep() {
         // Creating the ForkJoinPool - this makes the parallism.
         // ForkJoinPool(1) - All Async methods will executed in single thread.
-        // ForkJoinPool(2) - All Async methods will be executed two thread.
-        ForkJoinPool forkJoinPool = new ForkJoinPool(1);
+        // ForkJoinPool(2) - All Async methods will be executed in two thread.
+        ForkJoinPool forkJoinPool = new ForkJoinPool(5);
         DisplayThread(); // Display main thread.
         try {
 
